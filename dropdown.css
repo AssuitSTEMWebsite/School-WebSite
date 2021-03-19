@@ -60,9 +60,6 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  #drop-content{
-    margin-top: 16px;
-  }
   #drop{
       margin-right: 10px;
   }

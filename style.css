@@ -1,25 +1,20 @@
-nav {
-	background-color: rgba(191,190,209) ;
-	padding: 15px;
-	text-align: center;
-	position: fixed;
-	margin: auto;
-	width: 100vw;
-	top: 0px;
-	z-index: 1;
+#s{
+			color: black;
+		}
+		#s:hover{
+			color: white;
+			background-color: rgba(190,23,25);
+		}
+		#navbt{
+			margin-left: 550px;
+		}
+		#but{
+			float: right;
+		}
+body {
+	padding-top: 70px;
+}
 
-}
-.navSec{
-	text-decoration: none;
-	color: black;
-	padding: 17px;
-	font-size: 18px;
-	
-}
-.navSec:hover{
-	background-color: rgba(190,23,25);
-	color: white;
-}
 #back{
 	border-style: solid;
 	border-color: black;
@@ -44,6 +39,7 @@ nav {
 	width: 89vw;
 	text-align: center;
 	border-radius: 10px;
+
 }
 .par{
 	font-size: 25px;
@@ -77,4 +73,7 @@ nav {
 }
 .con:hover{
 	color: rgb(197, 133, 134);
+}
+li{
+	display: inline;
 }
