@@ -77,3 +77,16 @@ body {
 li{
 	display: inline;
 }
+#overview-card{
+	margin: auto;
+	width: 70rem;
+	height: 20rem;
+	text-align: center;
+	display: block;
+	border-width: 1px;
+	border-color: rgb(119, 14, 14);
+	border-radius: 20px;
+}
+#overview-card:hover{
+	color: rgb(119, 14, 14);	 
+}
