@@ -1,0 +1,81 @@
+#s{
+			color: black;
+			padding: 15px;
+		}
+		#s:hover{
+			color: white;
+			background-color: rgba(190,23,25);
+		}
+		#navbt{
+			margin-left: 550px;
+		}
+		#but{
+			float: right;
+		}
+body {
+	padding-top: 70px;
+	overflow-x: hidden;
+}
+
+#back{
+	border-style: solid;
+	border-color: black;
+	height: 84vh;
+	width: 95vw;
+	display: table;
+	margin: 90px auto;
+}
+.title{
+	font-size: 50px;
+	text-align: center;
+	margin: auto;
+	color: rgba(190,23,25);
+	margin-bottom: 20px;
+}
+.des{
+	font-size: 35px;
+	color: black;
+	border-style: solid;
+	border-width: 0.3px;
+	margin: auto;
+	width: 89vw;
+	text-align: center;
+	border-radius: 10px;
+
+}
+.par{
+	font-size: 25px;
+	text-align: center;
+}
+#logo{
+	width: 50px;
+	height: 50px;
+	z-index: 15;
+	position: fixed;
+	top: 3px;
+	left: 40px;
+
+}
+#contact{
+	background-color: rgba(190,23,25);
+	padding: 20px;
+
+}
+.con{
+	color: white;
+	text-decoration: none;
+	margin-left: 100px;
+}
+.con1{
+	color: white;
+	text-decoration: none
+}
+.con1:hover{
+	color: rgb(197, 133, 134);
+}
+.con:hover{
+	color: rgb(197, 133, 134);
+}
+li{
+	display: inline;
+}

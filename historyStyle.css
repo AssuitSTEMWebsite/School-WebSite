@@ -1,0 +1,46 @@
+.cont{
+	height: 30vh;
+	width: 80vw;
+	margin: 500px auto;
+}
+.toplefth{
+	position: absolute;
+    width: 120px;
+    height: 80px;
+    border: solid;
+    border-color:white ;
+    border-bottom: 50px;
+    border-left:50px;
+    border-top-right-radius: 20px;
+    margin-bottom: 0px;
+    margin-left: 90%;
+}
+
+.bottomrighth{
+	position: absolute;
+    width: 120px;
+    height: 80px;
+    border: solid;
+    border-color: white;
+    border-top: 50px;
+    border-right: 50px;
+    border-bottom-left-radius: 20px;
+    margin-top: 20%;
+    margin-right:-15px;
+}
+.Partitle{
+	margin: 20px auto;
+	display: table;
+	color: white;
+	font-size: 40px;
+}
+.pad{
+	margin-top: -60px;
+	padding: 30px;
+}
+#lmm{
+	opacity: 1;
+	color: black;
+	text-decoration: none;
+;
+}

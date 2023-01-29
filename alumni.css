@@ -1,0 +1,110 @@
+body{
+    font-family: 'Lato',sans-serif;
+    overflow-x: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position	: center;
+    background-image: url(campus/scol.png);
+    color: black;
+
+
+}
+.rotate{
+    transform: rotateY(360deg)   ;
+    transition-duration: 0.5s;
+    animation: ease-in-out;
+    animation-duration: 0.5s;
+}
+.rotate2{
+    transform: rotateY(720deg)   ;
+    transition-duration: 0.5s;
+    animation: ease-in-out;
+    animation-duration: 0.5s;
+}
+.bottomleft{
+    position: relative;
+    width: 50px;
+    height: 80px;
+    border: solid;
+    border-color: white ;
+    border-top: 50px;
+    border-right: 50px;
+    border-bottom-left-radius: 20px;
+    top: 250px;
+    right:12px;
+}
+.topright{
+    position: relative;
+    width: 50px;
+    height: 80px;
+    border: solid;
+    border-color:white ;
+    border-bottom: 50px;
+    border-left:50px;
+    border-top-right-radius: 20px;
+    bottom: 10px;
+    left: 257px;
+
+}
+/* .card:hover{
+    transform: rotateY(360deg)   ;
+    transition-duration: 0.7s;
+    animation: ease-in-out;
+ 
+} */
+#first{
+    margin-top: -120px;
+}
+#second{
+    margin-top: -120px;
+}
+#third{
+    margin-top: -120px;
+}
+#fourth{
+    margin-top: -120px;
+}
+#fifth{
+    margin-top: -120px;
+}
+#sixth{
+    margin-top: -120px;
+}
+#seventh{
+    margin-top: -80px;
+}
+#eight{
+    margin-top: -60px;
+}
+#nineth{
+    margin-top: -120px;
+}
+#third-first{
+    margin-top: -120px;
+}
+#tenth{
+    margin-top: -120px;
+}
+#eleventh{
+    margin-top: -120px;
+}
+#twelveth{
+    margin-top: -120px;
+}
+#thirteen{
+    margin-top: -120px;
+}
+#fourteen{
+    margin-top: -120px;
+}
+#fifteen{
+    margin-top: -120px;
+}
+#sixteen{
+    margin-top: -120px;
+}
+#first{
+    color: black;
+    font-weight: bold;
+}

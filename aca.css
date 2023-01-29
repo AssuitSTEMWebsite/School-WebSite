@@ -1,0 +1,120 @@
+body{
+	overflow-x: hidden;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position	: center;
+	background-image: url(campus/scol.png);
+}
+
+.cont{
+	height: 30vh;
+	width: 80vw;
+	margin: 500px auto;
+	margin-top: 50px;
+}
+.cont1{
+	position: relative;
+	height: 30vh;
+	width: 80vw;
+	margin: auto;
+	margin-bottom: 200px ;
+	margin-top: -70px;
+}
+.toplefth{
+	position: absolute;
+    width: 120px;
+    height: 80px;
+    border: solid;
+    border-color:white ;
+    border-bottom: 50px;
+    border-left:50px;
+    border-top-right-radius: 20px;
+    margin-bottom: 0px;
+    margin-left: 90%;
+}
+
+.bottomrighth{
+	position: absolute;
+    width: 120px;
+    height: 80px;
+    border: solid;
+    border-color: white;
+    border-top: 50px;
+    border-right: 50px;
+    border-bottom-left-radius: 20px;
+    margin-top: 20%;
+    margin-right:-15px;
+}
+
+.Partitle{
+	margin: 20px auto;
+	display: table;
+	font-size: 40px;
+}
+.pad{
+	margin-top: -60px;
+	padding: 30px;
+}
+#lmm{
+	opacity: 1;
+	color: black;
+	text-decoration: none;
+;
+}
+.pad1{
+	text-align: center;
+	margin-top: -40px;
+	padding: 50px;
+	font-size: 1.54em;
+	color: white;
+	
+}
+.scol{
+    
+	
+	width: 100vw;
+ }
+ .scol-content{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	top: 20%;
+	left: 0;
+	color: white;
+	width: 100%;
+	height: 100%;
+ }
+ .acad{
+	
+	text-align: center;
+	font-size: 5em;
+	margin-top: 200px;
+	margin-bottom: 300px;
+	font-weight: bold;
+ }
+ .acad2{
+	text-align: center;
+	font-size: 4em;
+	
+	margin-bottom: 0px;
+	font-weight: bold;
+ }
+ .academi{
+	text-align: center;
+	font-size: 25px;
+	padding: 60px;
+	margin-top: 0em; 
+ }
+ .table{
+	 color: white;
+	 font-size: 15px;
+	 width: 30vw;
+	 text-align: center;
+	 margin-left: 10vw;
+	 position: relative;
+	 margin-bottom: 0px;
+	 background-color: transparent;
+ }

@@ -4,7 +4,10 @@
 	<title>STEM Assiut</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="dropdown.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="dropdown.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
 	
@@ -63,47 +66,79 @@
     </ul>
   </div>
 </nav>
-	<img src="sa.png" id="back">
-	<div class="title">Overview</div>
-	<section class="des">
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="Campus/school.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="Campus/school2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="Campus/school4.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<div style="position: relative; margin: 50px;">
+  <img src="over home.png" alt="" style=" position: relative; margin-left: 50%; width: 95vw; transform: translateX(-50%);">
+	<div class="title" style=" position: absolute;">Overview</div>
+	<section class="des" style="padding: 10px;">
 		RANKED AS THE BEST EGYPTIAN SECONDARY SCHOOL IN UPPPER EGYPT
 	</section>
 	<p class="par">It's continous seeking to establish a new mentality in the underprivileged areas of Upper Egypt.
 		<br>
-		The totally newborn mindset is what is unique here.
 	</p>
-	<div class="card" style="width: 25rem; height: 30rem; margin: 80px auto; border-radius: 15px;">
-        <h2 class="card" style="width: 20rem; height: 3rem; margin: auto; top: -20px; text-align: center; border-radius: 15px;">Academics</h2> 
-        <div class="card-body">
-            <p class="card-text"></p>
-            <a href="#" class="btn btn-primary" style="border-color: rgba(190,23,25); background-color: rgba(190,23,25); margin: auto; display: table; top: 23.7rem; bottom: 10rem; position: relative;">Learn More</a>
-        </div>
+  <p class="ss">
+    The totally newborn mindset is what is unique here.
+  </p>
+</div>
+  <div class="acas">
+    <img class="scol" src="Campus/scol.png" alt="" >
+    <div class="scol-content">
+      <div class="acad">ACADEMICS</div>
+      <hr style="color: white; position: relative; height: 1px; width: 1000px; display: block; opacity: 1;">
+      <p class="academi">The curriculum focuses on three aspects which are the sciences, humanities and arts with sports being a weekly activity. The curriculum includes a variety of STEM-based subjects such as Chemistry, Physics, Math, Mechanics, Biology, Geology and Technology. The students are guided through the curriculum by a set of learning outcomes in every subject that determines the essential concepts and skills the student has to acquire. STEM subjects’ lectures are usually discussed in classes then the taken Learning outcome is shown and applied in the appropriate Lab. For humanities, students take classes in languages: Arabic, English, German/French; Social Studies; Civics; and Religion. Students also choose a secondary activity to sports (as sports are obligatory for all students due to its importance) to participate in during the start of every year. These activities include Art, Library, Music and home economics.</p>
+      <a class="bbb" href="academics.html">Know More</a>
     </div>
+  </div>  
 
-	<div class="card" style=" margin: auto; font-size: 25px; background-color: rgba(190,23,25); color: white; padding: 30px;">
-		<h3 style="margin: 30px auto; text-align: center;">MISSION AND VISION</h3>
+	<div class="card" style=" margin-left: 50px; margin: auto; font-size: 25px; background-color: rgba(2, 3, 35 ,1); color: white; padding: 30px;">
+		<h3 style=" font-size: 3em; font-weight: bold; margin: 30px auto; text-align: center;">MISSION & VISION</h3>
 		<hr>
-		<p style="text-align: center; width: 93vw; margin: auto;">
+		<p style="text-align: center; width: 93vw; margin: auto; padding: 40px 20px; font-size: 30px;">
 			With the aim to nurture Upper Egyptian future shapers who demonstrate entrepreneurial leadership, high ethical standards, and civic engagement - regardless of their socioeconomic background- Assiut STEM schools offers a rigorous program that focuses on scientific, mathematical, and technological fields with the first introduction to project-based learning in Upper Egypt which ensures students' life interaction with the subjects they study.  
 		</p>
 		<hr>
 	</div>
+  <div>
+  <img style="margin-top: 50px; position: relative; left: 50%; transform: translateX(-50%);" src="alumni home.png" alt="">
+  <p class="ll " >ALUMNI</p>
+  <a href="alumni.html">  
+    <div class="alum">
+        <img class="cuper" src="Cuper.jpg" alt="">
+        <div class="suss suss--blur">
+          <div class="alink">Youssf Ashraf</div>
+          <hr class="hr-alum" style="height: 2px;">
+          <p class="plink">Minerva University</p>
+          <div class="cc"></div>
 
-
-
-
-
-
-
-
-
-    <div class="card" style="width: 25rem; height: 30rem; margin: 80px auto; border-radius: 15px;">
-        <h2 class="card" style="width: 20rem; height: 3rem; margin: auto; top: -20px; text-align: center; border-radius: 15px;">ALUMNI</h2> 
-        <div class="card-body">
-            <p class="card-text"></p>
-            <a href="#" class="btn btn-primary" style="border-color: rgba(190,23,25); background-color: rgba(190,23,25); margin: auto; display: table; top: 23.7rem; bottom: 10rem; position: relative;">Learn More</a>
-        </div>
     </div>
+  </a>  
+  </div>
+
 	<div id="contact">
 		<p class="con">
 		 <a href="tel:+20100 1047 851" class="con1">

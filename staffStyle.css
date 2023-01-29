@@ -1,0 +1,93 @@
+body{
+	overflow-x: hidden;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position	: center;
+	background-image: url(campus/scol.png);
+}
+.princ{
+	border-radius: 50%;
+	display: table;
+	margin: 50px auto;
+	margin-bottom: 20px;
+	border-width: 1px;
+	border-style: solid;
+}
+#staff{
+	text-align:center;
+	font-size: 25px;
+	border-width: 0.5px;
+	border-color: black;
+	border-style: solid;
+	min-width: 250px;
+	max-width: 300px;
+	margin: 40px auto;
+	border-radius: 15px;
+	display: inline-block;
+	 
+}
+.leftSec{
+	min-height: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin: 30px 0px;
+	width: 0vw;
+	float: left;
+	opacity: 1;
+	background-color: rgba(2, 3, 35 ,1);
+	overflow: hidden;
+	display: table;
+	border-left-style: double; 
+	/*border-bottom-style: double; 
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	
+	border-right-style: none;
+	border-top-style: none;*/
+	border: 6px solid white;
+	outline: 5px solid rgba(10, 14, 103);
+	border-radius: 15px;
+	position: relative;
+	right:15px;
+
+	/*border-color: white;
+	outline: black;
+	border-style: solid;
+	border-bottom-width:15px;
+	border-left-width: 15px;*/ 	
+
+
+
+}
+.rightSec{
+	min-height: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	margin: 30px 0px;
+	float: right;
+	opacity: 1;
+	width: 0vw;
+	background-color: rgba(2, 3, 35 ,1);
+	overflow: hidden;
+
+	margin-right: -10px;
+
+}
+.teachers{
+	display: table;
+	margin-left: 50px;
+	color: white;
+	font-size: 20px;
+	padding-top: 15px;
+}
+
+.teache{
+	padding: 15px;
+	display: table;
+	margin-left: 15px;
+	color: white;
+	font-size: 20px;
+}

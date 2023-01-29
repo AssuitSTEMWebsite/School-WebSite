@@ -1,0 +1,81 @@
+.cont{
+	height: 30vh;
+	width: 80vw;
+	
+	margin: 50px auto;
+}
+.toplefth{
+	width: 67px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	opacity: 1;
+	margin-left: -2px;
+}
+.topleftv{
+	width: 66px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	opacity: 1;
+	margin-left: -35px;
+	margin-top: 30px;
+	transform: rotateZ(90deg);
+}
+.bottomrighth{
+	width: 67px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	opacity: 1;
+	float: right;
+	position: relative;
+	bottom: 0px;
+}
+.bottomrightv{
+	width: 66px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	opacity: 1;
+	float: right;
+	margin-right: -100px;
+	transform: rotateZ(90deg);
+	margin-top: -16px;
+}
+.Partitle{
+	margin: 20px auto;
+	display: table;
+	font-size: 40px;
+}
+.pad{
+	margin-top: -60px;
+	padding: 30px;
+}
+.cirl{
+	border-color: black;
+	border-style: solid;
+	border-top-right-radius: 100%;
+	border-bottom-right-radius: 100%;
+	width: 0px;
+	height: 0px;
+	margin-top: 250px;
+	border-left-style: none;
+	margin-left: 0px;
+}
+.cirr{
+	border-style: solid;
+	width: 0px;
+	height: 0px;
+	border-color: black;
+	float: right;
+	border-top-left-radius: 100%;
+	border-bottom-left-radius: 100%;
+	border-right-style: none;
+	margin-right: 0px;
+	display: table;
+	right: 0px;
+	}
+#parg{
+	font-size: 30px;
+}
